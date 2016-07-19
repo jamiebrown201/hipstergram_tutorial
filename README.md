@@ -13,4 +13,4 @@ First order of business is a short introduction to the ruby on rails framework:
 
 Now for the first part of tutorial:
 
-[Part 1](docs/Part1.md)
+[Part 1](docs/part1/Part1.md)
