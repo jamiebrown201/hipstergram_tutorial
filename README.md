@@ -10,3 +10,7 @@ Your task (if you choose to accept it) is to create an instagram-esque system fo
 First order of business is a short introduction to the ruby on rails framework:
 
 [Introduction](docs/introduction.md)
+
+Now for the first part of tutorial:
+
+[Part 1](docs/Part1.md)
