@@ -22,4 +22,4 @@ First of all you will need to install rails with RubyGems (if you want to know m
 
 Now run `rails --version` (I promise this will be the last time you have to do that) to make sure everything is fine and dandy.
 
-[ONWARDS AND UPWARDS](Part2.md)
+[ONWARDS AND UPWARDS](part2.md)
