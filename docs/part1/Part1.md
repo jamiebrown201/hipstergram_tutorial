@@ -20,4 +20,6 @@ First of all you will need to install rails with RubyGems (if you want to know m
 
 ```gem install rails```
 
-now run `rails --version` (I promise this will be the last time you have to do that) to make sure everything is fine and dandy.
+Now run `rails --version` (I promise this will be the last time you have to do that) to make sure everything is fine and dandy.
+
+[ONWARDS AND UPWARDS](docs/part1/Part2.md)
