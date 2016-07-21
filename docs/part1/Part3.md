@@ -47,3 +47,5 @@ Now go back to your controller and delete the raise statement we created earlier
 ### 4) Summary
 
 So we have done a bit here so take some time to remind yourself what we did and maybe google bits you aren't too familiar with.
+
+[ONWARDS AND UPWARDS](Part4.md)
