@@ -14,4 +14,4 @@ So open your terminal and navigate to a directory where you would like your proj
 
 Now after all that hard work of typing in one command its time to view what you have created. Time to start up your server, you can do this by running `bin/rails server` in your command line. Wait for it to boot up and then head to `http://localhost:3000` in your browser. You should see the starting point of your brand spanking new website, well done.
 
-[ONWARDS AND UPWARDS](docs/part1/Part3.md)
+[ONWARDS AND UPWARDS](Part3.md)
