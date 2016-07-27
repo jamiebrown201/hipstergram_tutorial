@@ -1,5 +1,5 @@
 # Hipstergram tutorial
-Hello and welcome to the beginning of the rest of your life. You are about to embark on a journey into the world of "ruby on rails", we will be making a simple website that will help you understand a bit better HOW rails works and WHY we use it.
+You are about to embark on a journey into the world of "ruby on rails", we will be making a simple website that will help you understand a bit better HOW rails works and WHY we use it.
 
 Rails today, world domination tomorrow.
 
