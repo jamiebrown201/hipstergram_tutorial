@@ -6,7 +6,7 @@ Before we get going lets manage some expectations because nothing is more exciti
 
 Navigate to your views in `app/views/posts` and we can now add a useless button that will, when it grows up be a your button to create a new post. So on the page add a button (you may delete the original statement but you should note it down and remember it) a simple text stating that there are no posts:
 
-```
+```html
 No new posts
 <button type="button" href="#">New Post</button>
 ```
@@ -15,7 +15,7 @@ No new posts
 
 So that we can make posts we are going to need a model. Models are Ruby classes and they talk to the database, store and validate data, perform the business logic and generally do the heavy lifting. We going to use a generator again to make our model:
 
-```
+```sh
 bin/rails g model Post message:string
 ```
 
@@ -33,7 +33,7 @@ Migrations are a convenient way to alter your database schema over time in a con
 
 So basically we need to run a migration so the model we just generated in rails so that it can make it actually exist in the database. Right so how do we run a migrations I hear you ask:
 
-```
+```sh
 rake db:migrate
 ```
 
@@ -43,7 +43,7 @@ and with that one simple command rails runs of and makes you a perfect sqlite3 d
 
 So finally it is now time for us to actually get our posts displaying on our homepage. First of all we need to navigate to the controller so that when we are on our homepage we have access to our posts. So go back to our posts controller change the index method:
 
-```
+```ruby
 def index
 @posts = Post.all
 end
@@ -53,7 +53,7 @@ So what this will do is make the instance variable `@posts` available in your in
 
 How we will be doing that is through the magic of erb. Like I mentioned earlier erb gives us a way of embedding ruby code into or front end so that we can do all sorts of cool stuff:
 
-```
+```html
 <% if @posts.any? %>
   <% @posts.each do |post| %>
     <h2><%= post.message %></h2>
@@ -75,3 +75,5 @@ Brilliant so boot up your rails server and take a look at what has happened. You
 Ok so we have done a lot and things may be a little fuzzy, so now is a good time to introduce the RAILS CONSOLE. The rails console is a tool that you can use to interact with your Rails application from the command line. This is useful for testing out quick ideas with code and changing data server side without touching the website.
 
 Run it up from your command line and you can play around with your `Post` model.  [Here](http://www.giantflyingsaucer.com/blog/?p=1891) is a link to a blog post talking about some of the commands you can use to play around with out new model.
+
+[ONWARDS AND UPWARDS](Part5.md)
