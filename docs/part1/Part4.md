@@ -39,7 +39,7 @@ rake db:migrate
 
 and with that one simple command rails runs of and makes you a perfect sqlite3 database 'posts' with a message field.
 
-### 4) WOW, Much progress, such learning
+### 4) WOW, much progress, such learning
 
 So finally it is now time for us to actually get our posts displaying on our homepage. First of all we need to navigate to the controller so that when we are on our homepage we have access to our posts. So go back to our posts controller change the index method:
 
@@ -70,9 +70,8 @@ Now wont you look at that? cool right! But alas with great power comes great res
 
 Brilliant so boot up your rails server and take a look at what has happened. You should see the message that you have no posts being displayed. But we dont have a way of adding posts... yet.
 
-### 5) WOW, Much progress, such learning
-
-
 ### 6) Summary
 
-Ok so we have done a lot and things may be a little fuzzy, so now is a good time to introduce the RAILS CONSOLE. The rails console is a tool that you can use to
+Ok so we have done a lot and things may be a little fuzzy, so now is a good time to introduce the RAILS CONSOLE. The rails console is a tool that you can use to interact with your Rails application from the command line. This is useful for testing out quick ideas with code and changing data server side without touching the website.
+
+Run it up from your command line and you can play around with your `Post` model.  [Here](http://www.giantflyingsaucer.com/blog/?p=1891) is a link to a blog post talking about some of the commands you can use to play around with out new model.
