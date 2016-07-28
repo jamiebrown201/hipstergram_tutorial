@@ -62,7 +62,7 @@ How we will be doing that is through the magic of erb. Like I mentioned earlier 
   <h1>No posts yet!</h1>
 <% end %>
 
-<button href="#">Add a restaurant</button>
+<button href="#">Add a post</button>
 ```
 So as you can see here we have a normal ruby if else statement but with the added `<%` and `<%=`. These are just ways of the erb templating engine to be able to identify where the ruby code begins and when it finishes. The difference between the version with the equal sign and the version without is a tag with an equals sign indicates that enclosed code is an expression and that the renderer should substitute the code element with the result of the code (as a string) when it renders the template. Tags without the equals sign denote that the enclosed code is a scriptlet. Each scriptlet is caught and executed and the final result of the code is then injected in to the output at the point of the scriptlet.
 
