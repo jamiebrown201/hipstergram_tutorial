@@ -70,3 +70,6 @@ Nearly there all we need to do is link our home page button to our form to creat
 ```ruby
 <%= button_to 'new post', '/posts/new', method: :get %>
 ```
+Now run up your rails server and bask in the glory of what you have created!
+
+[ONWARDS AND UPWARDS](Part6.md)
